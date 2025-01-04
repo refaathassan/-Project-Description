@@ -1,0 +1,46 @@
+.jumbotron{
+    background-image: url("../img/shope.avif");
+    background-size: contain;
+    height:100px;
+    width: 100%;
+}
+.nav-item:hover{
+    background-color: #bbbbbb;
+}
+
+#body{
+    background-image: url("../img/images.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    color:white;
+}
+img{
+    height:150px;
+    width: 100px;
+}
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+@media(max-width: 900px) {
+    .navbar{
+        background-color: lightblue !important;
+    }
+    
+}
+@media(max-width: 600px) {
+    .navbar{
+        background-color: rgb(115, 117, 115) !important;
+    }
+    
+}
+@media(max-width: 400px) {
+    .navbar{
+        background-color: lightsalmon !important;
+    }
+    
+}
