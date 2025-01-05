@@ -1,7 +1,5 @@
 function  productInfo(){ 
-    const currentPath = window.location.pathname;
-    // Check if the current path matches the desired path
-    if (currentPath === '/E:/web%20development/final-project/maneu.html') {
+
         var info;
         var total=0;
         var coffe_type={"Turkish coffee":3,"American coffee":5,"Iced latte":7,"turkish coffee":3,"american coffee":5,"iced latte":7};
@@ -27,7 +25,6 @@ function  productInfo(){
                 // Example: Set text content to 'Title ' followed by the index number
                 element.textContent =coffe_type[Object.keys(coffe_type)[index]]+"$";
             });
-        }
     
 }
 
