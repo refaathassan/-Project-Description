@@ -2,6 +2,7 @@ function  productInfo(){
 
         var info;
         var total=0;
+
         var coffe_type={"Turkish coffee":3,"American coffee":5,"Iced latte":7,"turkish coffee":3,"american coffee":5,"iced latte":7};
         var imge=["assets/img/coffe1.jpeg","assets/img/coffe2.jpeg","assets/img/coffe3.webp","assets/img/coffe1.jpeg","assets/img/coffe2.jpeg","assets/img/coffe3.webp"]
         

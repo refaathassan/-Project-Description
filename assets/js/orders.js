@@ -19,11 +19,27 @@ function getInfo(event){
     );
     $("#information").hide();
     const size = document.getElementById("coffee-size");
+    const quantity = document.getElementById("numberDropdown");
     info+=size.value+"<b>";
     total+=sizes[size.value];
+    total*=parseInt(quantity.value);
     var ele=document.getElementById("information");
     ele.innerHTML=info+"<br>"+"total price :" +total;
     ele.style.backgroundColor="pink";
     ele.style.color="black";
     $("#information").slideDown("slow");
   }
+
+
+  function CreateDropdown(){
+    const dropdown = document.getElementById('numberDropdown');
+    for (let i = 1; i <= 10; i++) {
+      const option = document.createElement('option');
+      option.value = i;
+      option.text = i;
+      dropdown.appendChild(option);
+    }
+  }
+  window.onload = function() {
+    CreateDropdown();
+};
